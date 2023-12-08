@@ -1,5 +1,4 @@
 # IS477: Data Management, Curation, and Reproducibility - Final Project
-[![DOI](https://zenodo.org/badge/725781003.svg)](https://zenodo.org/doi/10.5281/zenodo.10310567)
 ## Overview
 
 The project, is my final project for IS477, Data Curation, Manegement, and Reproducibility at The University of Illinois Urbana-Champaign. The goal of this assignment is to apply all of the techniques and knowledge learned throughout the semester. 
@@ -41,7 +40,7 @@ aisaiah2/is477-fall2023-final-project:v1
 
 2. To Reproduce this workflow
 ```
-$ docker run --rm -v ${PWD}:/is477 is477-fall2023-final-project:v1 snakemake --cores 1 reproduce
+$ docker run --rm -v ${PWD}:/is477 aisaiah2/is477-fall2023-final-project:v1 snakemake --cores 1 reproduce 
 ```
 
 This Docker script will execute the following scripts in the <scripts> directory:
@@ -54,7 +53,7 @@ This Docker script will execute the following scripts in the <scripts> directory
 
 3. Clean 
 ```
-$ docker run --rm -v ${PWD}:/is477 is477-fall2023-final-project:v1 snakemake --cores 1 reproduce --delete-all-output
+$ docker run --rm -v ${PWD}:/is477 aisaiah2/is477-fall2023-final-project:v1 snakemake --cores 1 reproduce --delete-all-output
 ```
 * This script will clear all of the output files and allow you reproduce the project.
 
@@ -76,7 +75,7 @@ The wine dataset, used in this project, is licensed under a Creative Commons Att
 
 * Forina, M. et al (1988) “PARVUS - An Extendible Package for Data Exploration, Classification and Correlation.” Institute of Pharmaceutical and Food Analysis and Technologies, Via Brigata Salerno, 16147 Genoa, Italy.
 
-## Project Structure
+## Folder Structure
 ```
 ├── Dockerfile
 ├── LICENSE
