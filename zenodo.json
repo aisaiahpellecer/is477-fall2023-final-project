@@ -1,0 +1,39 @@
+{
+
+
+    "title": "is477-fall2023-final-project",
+    "description": "The project, is my final project for IS477, Data Curation,
+     Manegement, and Reproducibility at The University of Illinois Urbana-Champaign. 
+     The goal of this assignment is to apply all of the techniques and knowledge 
+     learned throughout the semester.",
+     "keywords": ["data","data science", "data curation", "data management",
+      "data reproducibility", "final project", "wine","wine dataset"],
+
+    "access_right": "open",
+    "upload_type": "software",
+    "license": "MIT",
+
+     "creators": [
+      {
+        "orcid": "0009-0001-7167-4200",
+        "affiliation": "University of Illinois Urbana-Champaign",
+        "name": "Pellecer, Aisaiah"
+      }
+    ],
+      
+    "related_identifiers": [
+      {
+        "scheme": "doi",
+        "identifier": "10.24432/C5PC7J",
+        "relation": "cites",
+        "resource_type": "dataset"
+      },
+      {
+        "scheme": "url",
+        "identifier": "https://github.com/aisaiahpellecer/is477-fall2023-final-project",
+        "relation": "isSupplementTo",
+        "resource_type": "software"
+      }
+    ]
+
+}

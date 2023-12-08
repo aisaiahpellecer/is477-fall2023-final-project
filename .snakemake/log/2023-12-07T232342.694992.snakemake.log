@@ -1,0 +1,8 @@
+Building DAG of jobs...
+Deleting data/wine.zip
+Deleting data/wine/Index
+Deleting data/wine/wine.data
+Deleting results/correlation_heatmap.png
+Deleting results/distribution_plot.png
+Deleting results/violin_plot.png
+Deleting results/pairplot.png

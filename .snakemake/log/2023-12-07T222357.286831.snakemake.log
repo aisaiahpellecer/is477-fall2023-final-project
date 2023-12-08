@@ -1,0 +1,2 @@
+SyntaxError in file /Users/aisaiahpellecer/Desktop/is477-fall2023-final-project/Snakefile, line 23:
+Expecting rule keyword, comment or docstrings inside a rule definition. (Snakefile, line 23)
