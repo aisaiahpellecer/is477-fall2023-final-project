@@ -1,3 +1,4 @@
+# IS477: Data Management, Curation, and Reproducibility - Final Project
 ## Overview
 
 The project, is my final project for IS477, Data Curation, Manegement, and Reproducibility at The University of Illinois Urbana-Champaign. The goal of this assignment is to apply all of the techniques and knowledge learned throughout the semester. 
@@ -73,3 +74,35 @@ The wine dataset, used in this project, is licensed under a Creative Commons Att
 *  Aeberhard, Stefan and Forina, M. (1991). Wine. UCI Machine Learning Repository. https://doi.org/10.24432/C5PC7J
 
 * Forina, M. et al (1988) “PARVUS - An Extendible Package for Data Exploration, Classification and Correlation.” Institute of Pharmaceutical and Food Analysis and Technologies, Via Brigata Salerno, 16147 Genoa, Italy.
+
+## Project Structure
+```
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── data
+│   ├── wine
+│   │   ├── Index
+│   │   ├── wine.data
+│   │   └── wine.names
+│   └── wine.zip
+├── profiling
+│   └── report.html
+├── requirements.txt
+├── results
+│   ├── correlation_heatmap.png
+│   ├── distribution_plot.png
+│   ├── pairplot.png
+│   └── violin_plot.png
+├── scripts
+│   ├── __pycache__
+│   │   └── profile.cpython-39.pyc
+│   ├── analysis.py
+│   ├── dag.py
+│   ├── prepare_data.py
+│   └── profile.py
+├── snakefile
+├── workflow
+│   └── workflow.png
+└── zenodo.json
+```
