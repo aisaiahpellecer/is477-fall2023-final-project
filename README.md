@@ -1,4 +1,3 @@
-# is477-fall2023-final-project
 ## Overview
 
 The project, is my final project for IS477, Data Curation, Manegement, and Reproducibility at The University of Illinois Urbana-Champaign. The goal of this assignment is to apply all of the techniques and knowledge learned throughout the semester. 
