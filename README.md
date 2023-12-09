@@ -1,4 +1,5 @@
 # IS477: Data Management, Curation, and Reproducibility - Final Project
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10310797.svg)](https://doi.org/10.5281/zenodo.10310797)
 ## Overview
 
 The project, is my final project for IS477, Data Curation, Manegement, and Reproducibility at The University of Illinois Urbana-Champaign. The goal of this assignment is to apply all of the techniques and knowledge learned throughout the semester. 
